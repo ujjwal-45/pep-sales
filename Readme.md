@@ -36,11 +36,13 @@ A full-stack backend system to send notifications (Email, SMS, In-App) using a m
 ```bash
 git clone https://github.com/your-username/notification-system.git
 cd notification-system
+```
 
 ### 2. Install dependencies
 
 ```bash
 npm install
+```
 
 ### 3. Create env file 
 
@@ -55,13 +57,16 @@ SMTP_PASS=your_mailtrap_password
 
 ```bash
 docker-compose up -d
+```
 
 
 ### 5. 5. Start the server
 ```bash
 npx nodemon src/index.js
+```
 
 ### 6. In another terminal, run the email worker:
 
 ```bash
 node src/workers/email-worker.js
+```
