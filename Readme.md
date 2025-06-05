@@ -49,9 +49,9 @@ npm install
 ### 3. Create env file 
 
 PORT=3000
-DATABASE_URL=postgres://postgres:postgres@localhost:5432/notifications
-RABBIT_URL=amqp://localhost
-SMTP_USER=your_mailtrap_username
+DATABASE_URL=postgres://postgres:postgres@localhost:5432/notifications \\
+RABBIT_URL=amqp://localhost \\
+SMTP_USER=your_mailtrap_username \\
 SMTP_PASS=your_mailtrap_password
 
 
