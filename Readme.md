@@ -16,6 +16,7 @@ A full-stack backend system to send notifications (Email, SMS, In-App) using a m
 
 ## 📁 Project Structure
 
+```bash
 ├── src/
 │ ├── app.js
 │ ├── index.js
@@ -27,6 +28,7 @@ A full-stack backend system to send notifications (Email, SMS, In-App) using a m
 ├── .env
 ├── package.json
 └── docker-compose.yml
+```
 
 
 ## 📦 Getting Started
